@@ -1,0 +1,38 @@
+# === General IDE and OS files ===
+.DS_Store
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# === VSCode ===
+.vscode/
+!.vscode/extensions.json
+
+# === Logs ===
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# === Env files ===
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# === Build artifacts ===
+/build
+/dist
+
+# === JetBrains IDEA ===
+yourApp/.idea/
+
+# === Vite/React Frontend ===
+frontYourApp/node_modules/
+frontYourApp/dist/
+frontYourApp/.vscode/
